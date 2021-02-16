@@ -17,6 +17,7 @@ services:
       - DATABASE_URL=ecto://postgres:@postgres/explorer?ssl=false
       - ETHEREUM_JSONRPC_HTTP_URL=http://34.244.131.79:8547
       - ETHEREUM_JSONRPC_WS_URL=ws://34.244.131.79:9911 
+      - ETHEREUM_JSONRPC_VARIANT=besu
     ports:
       - "4000:4000"
     depends_on:
