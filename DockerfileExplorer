@@ -1,4 +1,4 @@
-FROM puppeth/blockscout@sha256:54f3ab56488a73e172fcfe236b3a44fce750cf7e19ecf83e89bc8a11f1ad5087
+FROM puppeth/blockscout@sha256:997db35b28fc712031a6b648479acca496986aff6f0ef543c57131e20985be8d
 
 WORKDIR /opt/app
 
